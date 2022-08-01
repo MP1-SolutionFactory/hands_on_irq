@@ -68,7 +68,7 @@ static int gpio_exit_remove(struct platform_device *pdev)
 /* this structure will do the matching with the device tree */
 /* if it is not matching the compatible field of DT, nothing will happen */
 static struct of_device_id push_led_match[] = {
-	{.compatible = "st,push_led"},
+	{.compatible = "st,push_led_irq"},
 	{/* end node */}
 };
 
