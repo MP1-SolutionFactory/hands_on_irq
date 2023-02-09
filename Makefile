@@ -6,7 +6,7 @@ obj-m := openstlinux-hands-on-irq-driver.o
 # Path to the directory that contains the Linux kernel source code
 # and the configuration file (.config)
 KERNEL_DIR ?= $(KERNEL_SRC_PATH)
-DESTDIR ?= kernel_install_dir
+DESTDIR ?= install_artifact
 
 # Path to the directory that contains the source file(s) to compile
 PWD := $(shell pwd) 
